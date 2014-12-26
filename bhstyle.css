@@ -1,0 +1,181 @@
+body{
+	background-image:url('sunset.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:black;
+}
+
+table {
+	text-align: center;
+}
+
+#row{
+	text-align: center;
+	font-weight: bold;
+}
+
+td {
+	text-align: center;
+}
+
+#brand_logo{
+	display:inline-block;
+	margin:5px 20px;
+    	padding:5px;
+}
+
+#inputimg{
+	width:200px;
+}
+
+.item{
+	display:inline-block;
+	width:200px;
+	font-size:14px;
+	outline:#fff dotted thick;
+	margin:10px;
+	padding:5px;
+}
+
+#pic {
+	float: right;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+
+#deck_name{
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:underline
+}
+
+.item img {
+    margin: 0 auto;
+	display:inline-block;
+	margin-bottom:0px;
+	height:50%;
+	width:50%;
+}
+
+#footer{
+	font-size:15px;
+	position:absolute;
+    bottom:0;
+	color:#fff;
+}
+
+
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:50%;
+	width:50%;
+}
+
+#cont{
+	margin:auto;
+	width:900px;
+	height:100%;
+	font-size:25px;
+	text-align:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: rgba(255,255,255,0.5);
+    	padding: 10px 5px;
+	border-radius:25px;
+	overflow: hidden;
+}
+
+.button {
+         display:inline-block;
+         padding: 2px 20px;
+         background-color:#FFF;
+         border: 1px solid #999;
+         opacity:.6;
+         cursor:pointer;
+         border-radius:7px;
+}
+
+#menu{
+	position:relative;
+	margin:auto;
+	margin-top:0;
+	padding:0%;
+    height: 100px;
+	width:600px;
+}
+
+#nav {
+    z-index: 10;
+    display: block;
+	list-style-type: none;
+	font-size:20px;
+}
+
+    #nav li { float: left; }
+        #nav li:hover { position: relative }
+        #nav li:hover > a { 
+            background: #transparent; 
+            box-shadow: 5px 5px 25px #000;
+            -moz-box-shadow: 5px 5px 25px #000;
+            -webkit-box-shadow: 5px 5px 25px #000;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;                  
+        }
+            #nav li.sub:hover > a {
+                border-radius: 10px 10px 0 0;
+                -moz-border-radius: 10px 10px 0 0;
+                -webkit-border-radius: 10px 10px 0 0;        
+            }
+
+            #nav li a {
+                color: #000000;
+                font-weight: bold;
+				font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+                text-decoration: none;
+                padding: 12px;
+                display: block;
+            }
+                #nav li a:hover { background-color: #transparent; }        
+                    
+    #nav li ul { 
+        background: #fff;
+        margin-top: -2px;
+        display: none;   
+		list-style-type: none;
+    }
+        #nav li:hover ul {
+            display:block; 
+            position:absolute; 
+        }
+
+        #nav li ul {
+            background: rgba(300,225,225,0.9);
+            padding: 10px 5px;
+            
+            box-shadow: 5px 5px 25px #000;
+            -moz-box-shadow: 5px 5px 25px #000;
+            -webkit-box-shadow: 5px 5px 25px #000;
+            
+            border-radius: 0px 15px 15px 15px;
+            -moz-border-radius: 0px 15px 15px 15px;
+            -webkit-border-radius: 0px 5px 5px 5px;
+        }
+            #nav li ul li a, #nav li ul li a:hover {
+                background: transparent;
+                color: #000;
+                width: 150px;
+                font-size: 0.95em;
+                font-weight: normal;
+            }
+                #nav li ul li a:hover { 
+					text-decoration: underline; 
+                    box-shadow: none;
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                    border-radius: 0;
+                    -moz-border-radius: 0;
+                    -webkit-border-radius: 0;
+                }
